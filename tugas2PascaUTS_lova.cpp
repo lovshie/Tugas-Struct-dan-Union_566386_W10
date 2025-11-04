@@ -67,7 +67,7 @@ void cariNilaiTertinggi(studentType mahasiswa[20]){
         if(mahasiswa[i].testScore == nilaiTertinggi){
             cout << endl << "Mahasiswa dengan nilai tertinggi adalah ";
             cout << mahasiswa[i].studentLName << ", " << mahasiswa[i].studentFName;
-            cout << " dengan nilai " << mahasiswa[i].grade;
+            cout << " dengan nilai " << mahasiswa[i].testScore;
         }
     }
 }
